@@ -2,24 +2,23 @@
 
 import { ProjectCard } from "@/components";
 import { Typography } from "@material-tailwind/react";
-import { getImagePrefix } from "../../utils/utils";
 import { motion } from "framer-motion";
 
 const PROJECTS = [
   {
-    img: `${getImagePrefix()}image/blog-1.svg`,
+    img: `/image/blog-1.svg`,
     title: "Street Art",
     desc: "A creative platform that allows artists to showcase their passion by sharing their artwork with a global audience. The app fosters a vibrant community where users can discover, upload, and engage with street art from around the world.",
     tags: ["Flutter", "Firebase"],
   },
   {
-    img: `${getImagePrefix()}image/blog2.svg`,
+    img: `/image/blog2.svg`,
     title: "Dog Stalker",
     desc: "An engaging app for dog lovers, featuring daily doses of adorable pups, expert care tips, and heartwarming stories. Designed to strengthen the bond between humans and dogs while building a community of pet enthusiasts.",
     tags: ["Flutter", "Firebase"],
   },
   {
-    img: `${getImagePrefix()}image/blog3.svg`,
+    img: `/image/blog3.svg`,
     title: "Hive Me Up",
     desc: "A smart event discovery app that provides real-time notifications about concerts, festivals, and workshops near you. It helps users stay connected with local happenings and never miss an exciting event.",
     tags: ["Flutter", "Firebase", "Google Maps API"],

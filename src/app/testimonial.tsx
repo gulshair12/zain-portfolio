@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { Typography, Card, CardBody, Avatar } from "@material-tailwind/react";
-import { getImagePrefix } from "../../utils/utils";
 import { motion, AnimatePresence } from "framer-motion";
 
 const TESTIMONIALS = [
@@ -14,7 +13,7 @@ const TESTIMONIALS = [
     company: "Apple Inc.",
     content:
       "Zain delivered an exceptional mobile application that exceeded our performance expectations. His attention to detail and problem-solving skills made him invaluable to our project timeline.",
-    avatar: `${getImagePrefix()}image/avatar1.jpg`,
+    avatar: `/image/avatar1.jpg`,
     image: `/image/avatar1.jpg`,
   },
   {
@@ -24,7 +23,7 @@ const TESTIMONIALS = [
     company: "Google",
     content:
       "Working with Zain on our web platform was a seamless experience. His full-stack expertise and ability to translate complex requirements into elegant solutions impressed our entire team.",
-    avatar: `${getImagePrefix()}image/avatar2.jpg`,
+    avatar: `/image/avatar2.jpg`,
     image: `/image/avatar2.jpg`,
   },
   {
@@ -34,7 +33,7 @@ const TESTIMONIALS = [
     company: "TechVision",
     content:
       "Zain transformed our MVP into a scalable product with clean architecture and optimal performance. His technical guidance throughout the development process was invaluable.",
-    avatar: `${getImagePrefix()}image/avatar3.jpg`,
+    avatar: `/image/avatar3.jpg`,
     image: `/image/avatar3.jpg`,
   },
 ];
